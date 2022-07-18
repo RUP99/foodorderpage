@@ -1,0 +1,122 @@
+/* .......... navigation ............ */
+/* *{
+    background-color: red;
+} */
+#navbar{
+    flex-direction: column;
+    width: 100%;
+}
+
+#logo img{
+    border-radius: 10%;
+    height: 40px;
+    margin: 0;
+}
+
+#navbar ul li{
+    font-size: 1.15rem;
+}
+
+#navbar ul li a{   
+    padding: 3px 15px;
+    margin: 1px 0px;
+}
+#h{
+    color: white;
+    background-color: #3AB477;
+    border-radius: 25px;
+}
+
+/* .......... home ........... */
+
+#home{
+    height: 350px;
+    justify-content: flex-end;
+}
+
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 0.6rem;
+    width: 380px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.one{
+    font-size: 2.0rem;
+    padding: 10px;
+    width: 420px;
+}
+.order{
+    height: 90px;
+}
+
+.zomato{
+    padding:  5px 10px;
+    margin: 10px;
+    font-size: 1.8rem;
+}
+
+.btn{
+    padding:  6px 9px;
+    margin: 8px;
+    font-size: 1.3rem;
+}
+
+/* .......... services ............ */
+.services{
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+.two{
+    font-size: 2.0rem;
+    padding: 10px;
+    font-weight: 100;
+    padding-bottom: 0px;
+}
+
+.services #box{
+    height: 300px;
+    padding: 15px;
+    margin: 10px 15px;
+    border-radius: 23px;
+    background-color: #d2fce8;
+}
+
+.h-secondary{
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.services #box img{
+    height: 100px;
+}
+
+/* .......... client .......... */
+
+.three{
+    font-size: 2.0rem;
+    padding: 10px;
+    font-weight: 100;
+    padding-bottom: 0px;
+}
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    height: 100px;
+}
+
+.client-item
+{
+    padding: 20px;
+}
+
+
+/* .......... contact ........... */
